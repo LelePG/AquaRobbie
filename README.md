@@ -24,4 +24,4 @@ Biblioteca utilizada para controlar os LEDs RBG. [Clique aqui para acessar a bib
 ## Como funciona
 Uma vez ligado, o projeto é ativado em intervalos de tempo definidos na contante *INTERVALO* dentro do programa. O usuário também pode solicitar água ativando o sensor capacitivo, o que reseta a contagem de intervalo de tempo. Um sensor de distância monitora de o copo está ou não na posição correta, e um LED indica quando o copo está no lugar. 
 Quando a hidratação é ativada, um buzzer avisa que a água está disponível. LEDs RBG também são utilizados para fins estéticos. 
-Toda a estrutura é montada em uma caixa de papelão
+Toda a estrutura é montada em uma caixa de papelão.
