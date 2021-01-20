@@ -44,7 +44,6 @@ void loop()
   tempoAtual = millis();
 
   setaCorDoLED();
-
   if (copoPresente() && (digitalRead(sensorCapacitivo) || (tempoAtual - tempoInicial >= INTERVALO)))
   {
     delay(300);
