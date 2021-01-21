@@ -1,6 +1,6 @@
 # AquaRobbie
 
-<img src="imagens_e_videos/AquaRobbieThumb.jpeg" alt="AquaRobbie" width="300"/>
+<img src="imagens_e_videos/AquaRobbieThumb.jpeg" alt="AquaRobbie" width="300" text-align = center/>
 
 Projeto inspirado no Hydrabot desenvolvido em lives no canal [**Julialabs**](https://www.twitch.tv/julialabs) na Twitch.
 [Clique aqui para ver o projeto do Hydrabot](https://github.com/Juliallabs/hydrabot)
