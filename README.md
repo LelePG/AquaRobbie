@@ -1,4 +1,7 @@
 # AquaRobbie
+
+![AquaRobbie](imagens_e_videos/20210120_144117.jpg)
+
 Projeto inspirado no Hydrabot desenvolvido em lives no canal [**Julialabs**](https://www.twitch.tv/julialabs) na Twitch.
 [Clique aqui para ver o projeto do Hydrabot](https://github.com/Juliallabs/hydrabot)
 
