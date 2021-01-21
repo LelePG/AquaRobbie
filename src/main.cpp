@@ -3,8 +3,8 @@
 #include "dlacolor.h"
 
 //Constantes
-#define INTERVALO 10000 //intervalo de ligação da bomba em millisegundos
-#define TEMPOENCHER 400
+#define INTERVALO 30000 //intervalo de ligação da bomba em millisegundos
+#define TEMPOENCHER 10000
 
 //Sensores e atuadores
 #define bombaAquario 13
@@ -60,7 +60,7 @@ void ativaAgua(void) //Rotina de ativar a água
   tocaBuzzer();
   delay(TEMPOENCHER);
   digitalWrite(bombaAquario, LOW);
-  luz.setCode(2);
+  luz.setCode(6);
 }
 
 bool copoPresente(void) //Verifica se o código está no lugar
@@ -78,8 +78,8 @@ bool copoPresente(void) //Verifica se o código está no lugar
 
 void setaCorDoLED(void) //Função para mudar a cor do LED de acordo com o tempo
 {
-  int tempoAmarelo = INTERVALO / 2;
-  if (tempoAtual - tempoInicial >= tempoAmarelo)
+  int tempoVermelho = INTERVALO / 2;
+  if (tempoAtual - tempoInicial >= tempoVermelho)
   {
     luz.setCode(4);
   }
