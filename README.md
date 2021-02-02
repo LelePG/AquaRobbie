@@ -38,7 +38,8 @@ No momento, toda a estrutura está montada em uma caixa de papelão.
 ## Conexões da bomba de aquário
 
 A bomba de aquário deve ser ligada através de uma fonte externa, para garantir a segurança e o bom funcionamento do circuito, já que a quantidade de energia que ela requere pode danificar o arduino. O circuito montado está disponível na imagem abaixo.
-![](imagens_e_videos/circuitoAR.jpeg).
+
+![](imagens_e_videos/circuitoAR.jpeg)
 
 #### Funcionamento dos componentes
 
