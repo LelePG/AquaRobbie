@@ -3,8 +3,8 @@
 #include "dlacolor.h"
 
 //Constantes
-#define INTERVALO 30000 //intervalo de ligação da bomba em millisegundos
-#define TEMPOENCHER 10000
+#define INTERVALO 900000 //(15min) //intervalo de ligação da bomba em millisegundos
+#define TEMPOENCHER 4000
 
 //Sensores e atuadores
 #define bombaAquario 13
